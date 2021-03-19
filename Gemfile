@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll'
+gem 'github-pages', '>= 207', group: :jekyll_plugins
+gem 'jekyll', '>= 3.9.0'
 gem 'rouge'
-gem 'jekyll-redirect-from'
+gem 'jekyll-redirect-from', '>= 0.12.1'
